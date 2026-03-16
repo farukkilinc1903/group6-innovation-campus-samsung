@@ -1,6 +1,6 @@
 # 1) Project Name 
 
-# Exploring Global Electricity Access in Schools Through Data Visualization to Support SDG 4 and SDG 7 
+ Exploring Global Electricity Access in Schools Through Data Visualization to Support SDG 4 and SDG 7 
 
 # 2) Overview 
 
