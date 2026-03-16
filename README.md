@@ -97,4 +97,4 @@ A comprehensive exploratory data analysis of global electricity access in school
 Data visualizations illustrating relationships between electricity access and socio-economic indicators. 
 Insights highlighting factors that influence electricity availability in schools. 
 A project report summarizing methodology, analysis, and findings. 
-Presentation materials explaining the project and its contribution to SDG 4 and SDG 7. 
+Presentation materials explaining the project and its contribution to SDG 4 and SDG 7. #
