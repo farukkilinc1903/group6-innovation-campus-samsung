@@ -32,10 +32,15 @@ This project focuses on using data visualization and exploratory data analysis t
 a) Research Questions 
 
 What is the global distribution of electricity access in schools? 
+
 Is there a relationship between national electricity access and electricity access in schools? 
+
 How does GDP per capita influence electricity availability in schools? 
+
 Does urbanization play a role in improving electricity access in educational institutions? 
+
 Is there a relationship between education expenditure and school electricity access? 
+
 Which socio-economic indicator has the strongest correlation with electricity access in schools? 
 
  
@@ -43,11 +48,17 @@ Which socio-economic indicator has the strongest correlation with electricity ac
 b) Key Steps 
 
 Collect and combine datasets related to electricity access in schools and relevant socio-economic indicators. 
+
 Clean and preprocess the data to remove missing or inconsistent values. 
+
 Perform exploratory data analysis (EDA) to understand the dataset structure. 
+
 Calculate descriptive statistics to summarize the data. 
+
 Visualize relationships between variables using charts and plots. 
+
 Identify patterns and correlations between school electricity access and other indicators. 
+
 Interpret results and discuss their implications for sustainable development goals. 
 
  
