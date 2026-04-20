@@ -1,3 +1,47 @@
+
+# Model Exploration & Results
+
+# 1) Model Choice & Justification
+In this study, the Random Forest Regressor was selected as the primary predictive model to analyze the factors influencing electricity access in schools. The choice of this model is based on several key advantages.
+First, the relationship between socio-economic indicators (such as GDP, urbanization, and inequality) and infrastructure outcomes is inherently non-linear, making linear models insufficient for capturing complex patterns. Random Forest, as an ensemble learning method, effectively models these non-linear relationships.
+Second, the model is robust to outliers and noise, which are common in global datasets derived from multiple sources. This improves the reliability of predictions across diverse country-level data.
+Finally, Random Forest provides a feature importance mechanism, allowing the identification and quantification of the most influential variables affecting electricity access in schools. This capability is essential for interpreting the model in the context of sustainable development
+
+# 2) Data Preparation
+The dataset used in this analysis was constructed by integrating multiple data sources, including NASA SEDAC indicators, World Bank datasets, and school electricity access data.
+To ensure consistency, all datasets were merged using ISO country codes and year as common identifiers. World Bank datasets, originally in wide format, were transformed into a long (panel) format using a melting process, enabling time-series analysis across countries.
+Key preprocessing steps included:
+•	Filtering relevant years and variables 
+•	Renaming columns for clarity and consistency 
+•	Merging datasets into a unified structure 
+•	Handling missing values by removing incomplete observations 
+After preprocessing, the final dataset was structured as a clean panel dataset suitable for machine learning analysis.
+To evaluate model performance, the dataset was split into 80% training data and 20% testing data, ensuring that the model was assessed on unseen observations.
+
+# 3) Training & Evaluation
+The Random Forest model was trained on the prepared dataset to predict electricity access in schools based on socio-economic and infrastructure indicators.
+Model performance was evaluated using the coefficient of determination (R²), which measures how well the independent variables explain the variance in the target variable.
+The model achieved an R² score of 0.916, indicating that approximately 91.6% of the variability in school electricity access is explained by the model. This represents a strong predictive performance and suggests that the selected variables capture the underlying patterns effectively.
+Feature importance analysis further revealed that national electricity access, urban population, and GDP per capita are among the most influential predictors, while variables such as education expenditure have comparatively lower explanatory power.
+These results highlight the critical role of overall energy infrastructure and economic development in determining electricity access in schools.
+•	National electricity access is the most significant predictor, highlighting that school-level access is largely dependent on overall national energy infrastructure. 
+•	Urban population percentage and GDP per capita also play substantial roles, reflecting the importance of economic development and urbanization in infrastructure distribution. 
+•	Income inequality (Gini index) shows a negative relationship, suggesting that higher inequality is associated with lower electricity access in schools. 
+•	Notably, education expenditure was found to be less influential than expected, indicating that financial investment alone is insufficient without supporting infrastructure. 
+One of the most distinctive findings of this study is the role of NASA-derived light per capita (Lpc), a satellite-based proxy for economic activity and infrastructure. This variable demonstrated stronger explanatory power than education expenditure, emphasizing the value of remote sensing data in development analysis.
+
+# 4) Interpretation in the Context of SDGs
+The findings clearly demonstrate that achieving SDG 4 (Quality Education) is closely linked to progress in SDG 7 (Energy Access). Investments in education must be complemented by improvements in national energy infrastructure to be effective. Without reliable electricity, educational resources cannot be fully utilized, regardless of financial spending.
+
+# 5) Limitations & Future Improvements
+This study has several limitations. First, the analysis is restricted to the period 1992–2013 due to the availability of NASA data, which may limit the representation of recent trends. Second, missing data in variables such as education expenditure reduced the number of countries included in the analysis, potentially affecting generalizability.
+Future research could address these limitations by incorporating more recent VIIRS satellite data and expanding the analysis to sub-national levels, such as regions or cities, to capture more localized patterns of inequality.
+
+
+
+
+# Exploratory data analysis
+
 # 1) Project Name 
 
 Exploring Global Electricity Access in Schools Through Data Visualization to Support SDG 4 and SDG 7 
