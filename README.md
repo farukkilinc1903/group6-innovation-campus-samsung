@@ -1,9 +1,13 @@
 # Uploads
 # Assignment 2 – Model Comparison & Evaluation
-Added XGBoost and Gradient Boosting models alongside the existing Random Forest model
+Added XGBoost and Gradient Boosting models alongside the existing Random Forest model 
+
 Compared all three models side by side to evaluate overall performance
+
 Expanded evaluation metrics to include MAE and MSE in addition to R²
+
 Selected the best-performing model based on the comparison results.
+
 Built and completed Assignment 3 using the best-performing model selected from Assignment 2
 
 
